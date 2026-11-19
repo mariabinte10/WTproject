@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E6ECE8;
+  color: #1A1A1A;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 410px;
+  margin: 20px auto;
+  background-color: #EFFBF2;
+  border: 1px solid #D3E4D8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.top-header {
+  background-color: #112A1C;
+  color: #FFFFFF;
+  padding: 18px 20px 20px 20px;
+  border-radius: 12px 12px 0 0;
+}
+
+.row {
+  width: 100%;
+}
+
+.left-col {
+  display: inline-block;
+  width: 64%;
+  text-align: left;
+}
+
+.right-col {
+  display: inline-block;
+  width: 34%;
+  text-align: right;
+}
+
+.header-second-row {
+  margin-top: 8px;
+}
+
+.header-subtitle {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #DCE8DF;
+}
+
+.header-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 4px 0 0 0;
+  text-align: left;
+}
+
+.header-title-serif {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #FFFFFF;
+  margin: 4px 0 0 0;
+  text-align: left;
+}
+
+.back-btn {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.assigned-pill {
+  display: inline-block;
+  background-color: #4C6B59;
+  border: 1px solid #6E8F7B;
+  color: #FFFFFF;
+  padding: 6px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bottom-strip {
+  background-color: #112A1C;
+  padding: 9px;
+  border-radius: 0 0 12px 12px;
+}
+
+.page-body {
+  padding: 18px;
+}
+
+.queue-label {
+  display: inline-block;
+  background-color: #DDE3DE;
+  color: #111111;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 10px;
+  margin-bottom: 14px;
+}
+
+.status-heading {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  color: #777777;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  border: 1px solid #E1ECE4;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.order-code {
+  font-size: 13px;
+  color: #444444;
+  margin-bottom: 2px;
+}
+
+.customer-name {
+  font-size: 17px;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 6px;
+}
+
+.address-text {
+  font-size: 13px;
+  color: #777777;
+  margin-top: 4px;
+}
+
+.dashed-line {
+  border-top: 2px dashed #8A8A8A;
+  margin: 12px 0;
+}
+
+.time-text {
+  font-size: 12px;
+  color: #333333;
+}
+
+.view-link {
+  text-decoration: none;
+  color: #111111;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.view-link span {
+  color: #2E9B55;
+  margin-left: 4px;
+}
+
+.receipt-link {
+  text-decoration: none;
+  color: #777777;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.badge-shipping {
+  background-color: #EBE4FF;
+  color: #5C44B8;
+}
+
+.badge-delivered {
+  background-color: #459958;
+  color: #FFFFFF;
+}
+
+.map-box {
+  display: block;
+  background-color: #D8E5DD;
+  border: 2px solid #C9DDD0;
+  border-radius: 14px;
+  padding: 36px 15px;
+  margin-bottom: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pin-icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.map-hint {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1E4A30;
+  background-color: #FFFFFF;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.info-row {
+  padding: 10px 0;
+}
+
+.info-left {
+  display: inline-block;
+  width: 34%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #111111;
+  text-align: left;
+}
+
+.info-right {
+  display: inline-block;
+  width: 64%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #111111;
+  text-align: right;
+}
+
+.btn-outline {
+  display: block;
+  width: 100%;
+  background-color: #EFFBF2;
+  border: 1px solid #8EA795;
+  color: #111111;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: #E2F4E7;
+}
+
+.btn-green {
+  display: block;
+  width: 100%;
+  background-color: #3D8E58;
+  border: none;
+  color: #FFFFFF;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background-color: #327A4A;
+}
+
+.otp-notice {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #1A1A1A;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.slip-title {
+  text-align: center;
+  font-size: 11px;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.slip-order {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 13px;
+  color: #222222;
+}
+
+.otp-inputs-row {
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+input[type="text"].otp-box {
+  display: inline-block;
+  width: 52px;
+  padding: 12px 0;
+  margin: 0 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  border: 2px solid #C6DACD;
+  border-radius: 8px;
+  background-color: #F2FAF4;
+  color: #111111;
+}
+
+.error {
+  display: block;
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.errorBorder {
+  border-color: red !important;
+}
+
+.successBorder {
+  border-color: green !important;
+}
+
+.resend-row {
+  text-align: center;
+  font-size: 13px;
+  color: #444444;
+  margin-top: 6px;
+}
+
+.resend-btn {
+  display: inline-block;
+  width: auto;
+  background-color: #FFFFFF;
+  border: none;
+  color: #111111;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 2px 4px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.demo-otp-box {
+  text-align: center;
+  background-color: #DDF5E4;
+  border: 1px dashed #3D8E58;
+  color: #144A26;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.msg-success {
+  background-color: #D6F5DF;
+  color: #19592E;
+  border: 1px solid #9BD9AE;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-align: center;
+}

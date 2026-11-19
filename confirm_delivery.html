@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Handoff - MediCare Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="top-header">
+      <div class="row">
+        <div class="left-col">
+          <span class="header-subtitle">ORDER #ORD-10475</span>
+        </div>
+        <div class="right-col">
+          <a href="delivery_details.html" class="back-btn">&larr;</a>
+        </div>
+      </div>
+      <h2 class="header-title-serif">Confirm Handoff</h2>
+    </div>
+
+    <div class="page-body">
+
+      <div id="otpSection">
+        <div class="otp-notice">
+          An OTP was sent to the customer's registered mobile number and email.
+        </div>
+
+        <div class="demo-otp-box">
+          Customer OTP (+880 1712-334455): <span class="bold-text" id="demoOtp"></span>
+        </div>
+
+        <form id="otpForm" novalidate>
+          <div class="card">
+            <div class="slip-title">ORDER PICKUP SLIP</div>
+            <div class="slip-order">#ORD-10475 &nbsp;&middot;&nbsp; Maria Binte Haque</div>
+
+            <div class="dashed-line"></div>
+
+            <div class="slip-title">ENTER 4-DIGIT OTP</div>
+
+            <div class="otp-inputs-row">
+              <input type="text" id="d1" maxlength="1" class="otp-box">
+              <input type="text" id="d2" maxlength="1" class="otp-box">
+              <input type="text" id="d3" maxlength="1" class="otp-box">
+              <input type="text" id="d4" maxlength="1" class="otp-box">
+            </div>
+
+            <span class="error" id="otpError"></span>
+
+            <div class="resend-row">
+              Didn't get it?
+              <button type="button" class="resend-btn" id="resendBtn">Resend OTP</button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-green">Confirm OTP</button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
